@@ -1,0 +1,39 @@
+html{
+    font-family: "Noto Sans", system-ui;
+}
+.subject{
+    font-size: 40px;
+    color: navy;
+    background-color: azure;
+}
+.links{
+    font-size: 16px;
+    color: blueviolet;
+}
+label, input[type='checkbox'] {
+    cursor: pointer;
+}
+
+
+
+th {
+    border-bottom: 2px solid;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid;
+    border-left:  1px solid;
+    border-right: 1px solid;
+    border-collapse: collapse;
+}
+
+table{
+    border-collapse:collapse;
+}
+th,td{
+    padding: 5px;
+}
+summary{
+    font-size: 20px;
+}

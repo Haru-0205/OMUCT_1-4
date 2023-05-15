@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-    <html>
+<html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>OMUCT_1-4_Timetable</title>
+        <title>時間割</title>
         <style>
-/* From extension vscode.github */
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
+            /* From extension vscode.github */
+            /*---------------------------------------------------------------------------------------------
+             *  Copyright (c) Microsoft Corporation. All rights reserved.
+             *  Licensed under the MIT License. See License.txt in the project root for license information.
+             *--------------------------------------------------------------------------------------------*/
 
-.vscode-dark img[src$=\#gh-light-mode-only],
-.vscode-light img[src$=\#gh-dark-mode-only] {
-	display: none;
-}
+            .vscode-dark img[src$=\#gh-light-mode-only], .vscode-light img[src$=\#gh-dark-mode-only]
+            {
+                display: none;
+            }
 
-</style>
+        </style>
         
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        <link rel="stylesheet" href="markdown.css">
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="style.css">
         <style>
             body {
                 font-family: "Noto Sans JP", system-ui;
@@ -26,74 +27,67 @@
                 line-height: 1.6;
             }
 
-            .task-list-item {
-                list-style-type: none;
-            }
-
-            .task-list-item-checkbox {
-                margin-left: -20px;
-                vertical-align: middle;
-                pointer-events: none;
-            }
         </style>
-
     </head>
     <body class="vscode-body vscode-light">
-    <table>
-        <thead>
-        <tr>
-            <th></th>
-            <th style="text-align:center">月</th>
-            <th style="text-align:center">火</th>
-            <th style="text-align:center">水</th>
-            <th style="text-align:center">木</th>
-            <th style="text-align:center">金</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>1-2</td>
-            <td style="text-align:center"><a href="general/physics1.html">基礎物理1</a></td>
-            <td style="text-align:center"><a href="general/english1.html">英語1</a></td>
-            <td style="text-align:center"><a href="specialty/practice.html">総合工学システム実験実習</a></td>
-            <td style="text-align:center"><a href="general/basic_math_a.html">基礎数学A</a></td>
-            <td style="text-align:center"><a href="general/chemistry1.html">化学1</a></td>
-        </tr>
-        <tr>
-            <td>3-4</td>
-            <td style="text-align:center"><a href="specialty/intro.html">総合工学システム概論</a></td>
-            <td style="text-align:center"><a href="general/japanese1.html">国語1</a></td>
-            <td style="text-align:center"><a href="specialty/practice.html">総合工学システム実験実習</a></td>
-            <td style="text-align:center"><a href="general/social1.html">社会1</a></td>
-            <td style="text-align:center"><a href="general/art/music.html">音楽</a>,<a href="general/art/fine_art.html">美術</a>,<a href="general/art/calligraphy.html">書道</a></td>
-        </tr>
-        <tr>
-            <td>5-6</td>
-            <td style="text-align:center"><a href="general/basic_math_a.html">基礎数学A</a></td>
-            <td style="text-align:center"><a href="general/diversity.html">ダイバーシティと人権</a></td>
-            <td style="text-align:center"><a href="general/english_expression1.html">英語表現1</a></td>
-            <td style="text-align:center"><a href="general/english1.html">英語1</a></td>
-            <td style="text-align:center"><a href="general/basic_math_c.html">基礎数学C</a></td>
-        </tr>
-        <tr>
-            <td>7-8</td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"><a href="general/pe1.html">保健体育1</a></td>
-            <td style="text-align:center"><a href="general/HR.html">HR</a></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-        </tr>
-        </tbody>
-    </table>
-    <p>
-        <a href="README.html"><strong>READMEへ</strong></a>
-        <br> <a href="https://haru-0205.github.io/OMUCT_1-4"><strong>HPへ</strong></a>
-        <br> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6Zxr3Lqm0069Z5-eOshc8dR_9WlpHBdGkd2Sph1DzRJUMlA3S1pJWjdDSDBNVVJYQ0dZUVBKUUw2VS4u">フィードバック</a>
-        <br> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6Zxr3Lqm0069Z5-eOshc8dR_9WlpHBdGkd2Sph1DzRJUODUyTE43QTlORTdCVzlJUDg1MFJHWUhEVS4u">エラー報告</a>
-        <br> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6Zxr3Lqm0069Z5-eOshc8dR_9WlpHBdGkd2Sph1DzRJUMlI3N01SN0hNTU0wRERBM1ZEMlo1TjhSMC4u">機能提案･改善要求</a>
-        <br> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6Zxr3Lqm0069Z5-eOshc8dR_9WlpHBdGkd2Sph1DzRJURTc4MDlZNUdBVEVaRFpXU0tWVzFHQUdESy4u">内容追加</a>
-        <br> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6Zxr3Lqm0069Z5-eOshc8dR_9WlpHBdGkd2Sph1DzRJUQU0xMzNMUTUyNEZHS0hJMzRFM1VESlZMSC4u">お問い合わせ</a>
-    </p>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th colspan="5">時間割</th>
+                </tr>
+                <tr>
+                    <th class="normal"></th>
+                    <th style="text-align:center" class="title"> 月</th>
+                    <th style="text-align:center" class="title">火</th>
+                    <th style="text-align:center" class="title">水</th>
+                    <th style="text-align:center" class="title">木</th>
+                    <th style="text-align:center" class="title">金</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1-2</td>
+                    <td style="text-align:center"><a href="general/physics1.html">基礎物理1</a></td>
+                    <td style="text-align:center"><a href="general/english1.html">英語1</a></td>
+                    <td style="text-align:center"><a href="specialty/practice.html">総合工学システム実験実習</a></td>
+                    <td style="text-align:center"><a href="general/basic_math_a.html">基礎数学A</a></td>
+                    <td style="text-align:center"><a href="general/chemistry1.html">化学1</a></td>
+                </tr>
+                <tr>
+                    <td>3-4</td>
+                    <td style="text-align:center"><a href="specialty/intro.html">総合工学システム概論</a></td>
+                    <td style="text-align:center"><a href="general/japanese1.html">国語1</a></td>
+                    <td style="text-align:center"><a href="specialty/practice.html">総合工学システム実験実習</a></td>
+                    <td style="text-align:center"><a href="general/social1.html">社会1</a></td>
+                    <td style="text-align:center"><a href="general/art/music.html">音楽</a>,<a href="general/art/fine_art.html">美術</a>,<a href="general/art/calligraphy.html">書道</a></td>
+                </tr>
+                <tr>
+                    <td>5-6</td>
+                    <td style="text-align:center"><a href="general/basic_math_a.html">基礎数学A</a></td>
+                    <td style="text-align:center"><a href="general/diversity.html">ダイバーシティと人権</a></td>
+                    <td style="text-align:center"><a href="general/english_expression1.html">英語表現1</a></td>
+                    <td style="text-align:center"><a href="general/english1.html">英語1</a></td>
+                    <td style="text-align:center"><a href="general/basic_math_c.html">基礎数学C</a></td>
+                </tr>
+                <tr>
+                    <td>7-8</td>
+                    <td style="text-align:center"></td>
+                    <td style="text-align:center"><a href="general/pe1.html">保健体育1</a></td>
+                    <td style="text-align:center"><a href="general/HR.html">HR</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="text-align:center"></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <a href="README.html"><strong>READMEへ</strong></a>
+         <br>  <a href="https://haru-0205.github.io/OMUCT_1-4/"><strong>HPへ</strong></a>
+         <br>  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6Zxr3Lqm0069Z5-eOshc8dR_9WlpHBdGkd2Sph1DzRJUMlA3S1pJWjdDSDBNVVJYQ0dZUVBKUUw2VS4u">フィードバック</a>
+         <br>  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6Zxr3Lqm0069Z5-eOshc8dR_9WlpHBdGkd2Sph1DzRJUODUyTE43QTlORTdCVzlJUDg1MFJHWUhEVS4u">エラー報告</a>
+         <br>  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6Zxr3Lqm0069Z5-eOshc8dR_9WlpHBdGkd2Sph1DzRJUMlI3N01SN0hNTU0wRERBM1ZEMlo1TjhSMC4u">機能提案･改善要求</a>
+         <br>  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6Zxr3Lqm0069Z5-eOshc8dR_9WlpHBdGkd2Sph1DzRJURTc4MDlZNUdBVEVaRFpXU0tWVzFHQUdESy4u">内容追加</a>
+         <br>  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=6Zxr3Lqm0069Z5-eOshc8dR_9WlpHBdGkd2Sph1DzRJUQU0xMzNMUTUyNEZHS0hJMzRFM1VESlZMSC4u">お問い合わせ</a>
+        </p>
     </body>
-
-    </html>
+</html>

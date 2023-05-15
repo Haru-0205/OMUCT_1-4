@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-    <html>
+    <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>&#x6982;&#x8981;</title>
+        <title>総合工学システム概論</title>
         <style>
 /* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
@@ -17,8 +17,9 @@
 
 </style>
         
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        <link rel="stylesheet" href="../markdown.css">
+<link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../style.css">
 <style>
             body {
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
@@ -26,69 +27,118 @@
                 line-height: 1.6;
             }
         </style>
-        <style>
-.task-list-item {
-    list-style-type: none;
-}
 
-.task-list-item-checkbox {
-    margin-left: -20px;
-    vertical-align: middle;
-    pointer-events: none;
-}
-</style>
-        
     </head>
     <body class="vscode-body vscode-light">
+    <h1 class="subject">総合工学システム概論</h1>
         <h1 id="概要">概要</h1>
 <table>
 <thead>
-<tr>
-<th>担当教員</th>
-<th>単位数</th>
-<th>授業期間</th>
-<th>種別</th>
-</tr>
+    <tr>
+        <th>担当教員</th>
+        <th>単位数</th>
+        <th>授業期間</th>
+        <th>種別</th>
+    </tr>
 </thead>
 <tbody>
-<tr>
-<td>土井,杉浦,北村,安藤</td>
-<td>2単位（必履修･<strong>必修得</strong>）</td>
-<td>通年</td>
-<td>専門共通</td>
-</tr>
-</tbody>
+    <tr>
+        <td>土井,杉浦,北村,安藤</td>
+        <td>2単位（必履修･<strong>必修得</strong>）</td>
+        <td>通年</td>
+        <td>専門共通</td>
+    </tr>
+ </tbody>
 </table>
+
 <h1 id="持ち物">持ち物</h1>
+
 <table>
 <thead>
-<tr>
-<th>種別</th>
-<th>名称</th>
-<th>備考</th>
-</tr>
+    <tr>
+        <th>種別</th>
+        <th>名称</th>
+        <th>備考</th>
+    </tr>
 </thead>
 <tbody>
-<tr>
-<td>参考書</td>
-<td>ITパスポート合格教本</td>
-<td>希望者のみ</td>
-</tr>
-<tr>
-<td>デバイス</td>
-<td>PC</td>
-<td></td>
-</tr>
+    <tr>
+        <td>参考書</td>
+        <td>ITパスポート合格教本</td>
+        <td>希望者のみ</td>
+    </tr>
+    <tr>
+        <td>デバイス</td>
+        <td>PC</td>
+        <td></td>
+    </tr>
 </tbody>
 </table>
 <h1 id="課題等">課題等</h1>
-<ul class="contains-task-list">
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" checked=""type="checkbox"> <s>レポート1　(4/23 22:00)</s></li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" checked=""type="checkbox"> <s>レポート2　(5/1 22:00)</s></li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> レポート3　(5/8 22:00)</li>
-</ul>
-<h1 id="連絡">連絡</h1>
+<details>
+    <summary>過去の課題</summary>
+    <table>
+    <thead>
+    <tr>
+        <th>
+
+        </th>
+        <th>内容</th>
+        <th>期限</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><label>
+            <input  type="checkbox" checked="" name="checkbox1" value="checkbox1" onchange="onchange(this.value)" />
+        </label></td>
+        <td><s>レポート1</s></td>
+        <td><s> 4/23 22:00</s></td>
+    </tr>
+    <tr>
+        <td><label>
+            <input  checked="" type="checkbox" name="checkbox2" value="checkbox2" onchange="onchange(this.value)"/>
+        </label></td>
+        <td><s>レポート2</s></td>
+        <td><s>4/30  22:00</s></td>
+    </tr>
+    <tr>
+        <td><label>
+            <input  type="checkbox" name="checkbox3" value="checkbox3" checked="" onchange="onchange(this.value)"/>
+        </label></td>
+        <td> <s>レポート3</s></td>
+        <td> <s>5/7 22:00</s></td>
+    </tr>
+    </tbody>
+    </table >
+</details>
+
+    <details open>
+        <summary>現在の課題</summary>
+        <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>内容</th>
+                <th>期限</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>レポート4</td>
+                <td>5/14 22:00</td>
+            </tr>
+        </tbody>
+        </table>
+    </details>
+
+    <script src="../checkbox.js">
+    </script>
+
+    <h1 id="連絡">連絡</h1>
 <h1 id="場所">場所</h1>
+
 <table>
 <thead>
 <tr>
@@ -104,10 +154,7 @@
 </tbody>
 </table>
 <h1 id="関連科目">関連科目</h1>
-<p><a href="practice">総合工学システム実験実習</a></p>
+<p><a href="practice.html">総合工学システム実験実習</a></p>
 <p><a href="../timetable"><strong>時間割に戻る</strong></a></p>
-
-        
-        
     </body>
     </html>
