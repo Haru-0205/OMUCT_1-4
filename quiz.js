@@ -19,42 +19,46 @@ document.getElementById('next').style.visibility = 'hidden';
 document.getElementById('hantei_text').style.visibility = 'hidden';
 
 function SetQA (){
-    switch (No) {
-        case 1:
-            Quiz = "本校の現在の正式名称は？";
-            Answer = "大阪公立大学工業高等専門学校";
-            Type = 1;
-            break;
-        case 2:
-            Quiz = "原子番号１の元素は？";
-            Answer = "水素";
-            Ans1 = "水素";
-            Ans2 = "窒素";
-            Ans3 = "酸素";
-            Type = 2;
-            break;
-        case 3:
-            Quiz = "本校の面積に一番近いのは？(単位:平方メートル)";
-            Answer = "10万";
-            Ans1 = "6万";
-            Ans2 = "10万";
-            Ans3 = "12万";
-            Type = 2;
-            break;
-        case 4:
-            Quiz = "本校で生徒会にあたる組織は？"
-            Answer = "学友会"
-            Type = 1;
-            break;
-        case 5:
-            Quiz = "日本で一番高い山は？"
-            Answer = "富士山"
-            Type = 1;
-            break;
-        default:
-            Quiz = null;
-            Answer = null;
-            Type = null;
+    if (Answer != null) {
+        switch (No) {
+            case 1:
+                Quiz = "本校の現在の正式名称は？";
+                Answer = "大阪公立大学工業高等専門学校";
+                Type = 1;
+                break;
+            case 2:
+                Quiz = "原子番号１の元素は？";
+                Answer = "水素";
+                Ans1 = "水素";
+                Ans2 = "窒素";
+                Ans3 = "酸素";
+                Type = 2;
+                break;
+            case 3:
+                Quiz = "本校の面積に一番近いのは？(単位:平方メートル)";
+                Answer = "10万";
+                Ans1 = "6万";
+                Ans2 = "10万";
+                Ans3 = "12万";
+                Type = 2;
+                break;
+            case 4:
+                Quiz = "本校で生徒会にあたる組織は？"
+                Answer = "学友会"
+                Type = 1;
+                break;
+            case 5:
+                Quiz = "日本で一番高い山は？"
+                Answer = "富士山"
+                Type = 1;
+                break;
+            default:
+                Quiz = null;
+                Answer = null;
+                Type = null;
+        }
+    }else {
+
     }
 
     document.getElementById('Question').style.visibility = 'visible';
