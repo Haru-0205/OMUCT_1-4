@@ -6,6 +6,17 @@ let Ans2;
 let Ans3;
 let Ans;
 let No = 1;
+document.getElementById('Question').style.visibility = 'hidden';
+document.getElementById('QuestionNumber').style.visibility = 'hidden';
+document.getElementById('button1').style.visibility = 'hidden';
+document.getElementById('button2').style.visibility = 'hidden';
+document.getElementById('button3').style.visibility = 'hidden';
+document.getElementById('textbox').style.visibility = 'hidden';
+document.getElementById('submit').style.visibility = 'hidden';
+document.getElementById('hantei').style.visibility = 'hidden';
+document.getElementById('QuestionNumber').style.visibility = 'hidden';
+document.getElementById('next').style.visibility = 'hidden';
+document.getElementById('hantei_text').style.visibility = 'hidden';
 
 function SetQA (){
     switch (No) {
@@ -45,6 +56,13 @@ function SetQA (){
             Answer = null;
             Type = null;
     }
+
+    document.getElementById('Question').style.visibility = 'visible';
+    document.getElementById('hantei').style.visibility = 'visible';
+    document.getElementById('QuestionNumber').style.visibility = 'visible';
+    document.getElementById('next').style.visibility = 'visible';
+    document.getElementById('hantei_text').style.visibility = 'visible';
+    document.getElementById('start').style.visibility = 'hidden';
     if (Type == 1){
         document.getElementById('button1').style.visibility = 'hidden';
         document.getElementById('button2').style.visibility = 'hidden';
@@ -56,14 +74,14 @@ function SetQA (){
         document.getElementById('button2').style.visibility = 'visible';
         document.getElementById('button3').style.visibility = 'visible';
         document.getElementById('textbox').style.visibility = 'hidden';
-        document.getElementById('submit').style.visibility = 'hidden'
+        document.getElementById('submit').style.visibility = 'hidden';
     }
     // 各ボタンに文字を代入
     document.getElementById('Question').innerText = Quiz;
     document.getElementById('button1').innerText = Ans1;
     document.getElementById('button2').innerText = Ans2;
     document.getElementById('button3').innerText = Ans3;
-    document.getElementById('QuestionNumber').innerText = "第" + No + "問"
+    document.getElementById('QuestionNumber').innerText = "第" + No + "問";
 }
 
 function Ans1_Checked(){
