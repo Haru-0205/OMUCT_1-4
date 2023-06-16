@@ -142,10 +142,6 @@ function End(){
     document.getElementById('submit').style.visibility = 'hidden';
 }
 
-function End_Clicked(){
-    Re_Start();
-}
-
 function Re_Start(){
 No = 1;
     document.getElementById('Question').style.visibility = 'hidden';
