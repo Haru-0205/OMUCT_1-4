@@ -19,7 +19,7 @@ document.getElementById('next').style.visibility = 'hidden';
 document.getElementById('hantei_text').style.visibility = 'hidden';
 
 function SetQA (){
-    if (Answer != null) {
+
         switch (No) {
             case 1:
                 Quiz = "本校の現在の正式名称は？";
@@ -57,9 +57,9 @@ function SetQA (){
                 Answer = null;
                 Type = null;
         }
-    }else {
 
-    }
+
+
 
     document.getElementById('Question').style.visibility = 'visible';
     document.getElementById('hantei').style.visibility = 'visible';
@@ -67,6 +67,7 @@ function SetQA (){
     document.getElementById('next').style.visibility = 'visible';
     document.getElementById('hantei_text').style.visibility = 'visible';
     document.getElementById('start').style.visibility = 'hidden';
+    let Question_Number = '第' + No + '問'
     if (Type == 1){
         document.getElementById('button1').style.visibility = 'hidden';
         document.getElementById('button2').style.visibility = 'hidden';
@@ -85,7 +86,7 @@ function SetQA (){
     document.getElementById('button1').innerText = Ans1;
     document.getElementById('button2').innerText = Ans2;
     document.getElementById('button3').innerText = Ans3;
-    document.getElementById('QuestionNumber').innerText = "第" + No + "問";
+    document.getElementById("QuestionNumber").innerHTML = Question_Number;
 }
 
 function Ans1_Checked(){
@@ -120,5 +121,43 @@ function Next(){
     No = No + 1;
     document.getElementById("hantei").innerText = null;
     document.getElementById('textbox').value = null;
-    SetQA();
+    if (No <= 5) {
+        SetQA();
+    }else {
+        End();
+    }
+}
+
+function End(){
+    document.getElementById('Question').style.visibility = 'hidden';
+    document.getElementById('hantei').style.visibility = 'hidden';
+    document.getElementById('QuestionNumber').style.visibility = 'hidden';
+    document.getElementById('next').style.visibility = 'hidden';
+    document.getElementById('hantei_text').style.visibility = 'hidden';
+    document.getElementById('start').style.visibility = 'hidden';
+    document.getElementById('button1').style.visibility = 'hidden';
+    document.getElementById('button2').style.visibility = 'hidden';
+    document.getElementById('button3').style.visibility = 'hidden';
+    document.getElementById('textbox').style.visibility = 'hidden';
+    document.getElementById('submit').style.visibility = 'hidden';
+}
+
+function End_Clicked(){
+    Re_Start();
+}
+
+function Re_Start(){
+No = 1;
+    document.getElementById('Question').style.visibility = 'hidden';
+    document.getElementById('QuestionNumber').style.visibility = 'hidden';
+    document.getElementById('button1').style.visibility = 'hidden';
+    document.getElementById('button2').style.visibility = 'hidden';
+    document.getElementById('button3').style.visibility = 'hidden';
+    document.getElementById('textbox').style.visibility = 'hidden';
+    document.getElementById('submit').style.visibility = 'hidden';
+    document.getElementById('hantei').style.visibility = 'hidden';
+    document.getElementById('QuestionNumber').style.visibility = 'hidden';
+    document.getElementById('next').style.visibility = 'hidden';
+    document.getElementById('hantei_text').style.visibility = 'hidden';
+    document.getElementById('start').style.visibility = 'visible';
 }
