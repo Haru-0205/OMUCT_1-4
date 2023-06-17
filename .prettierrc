@@ -4,5 +4,6 @@
 	"useTabs": true,
 	"singleAttributePerLine": false,
 	"endOfLine": "lf",
-	"printWidth": 120
+	"printWidth": 120,
+	"bracketSameLine": false
 }
