@@ -1,67 +1,29 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <title>Quiz Page</title>
-    <link rel="stylesheet" href="quiz.css" />
-  </head>
-  <body>
-    <h1>Quiz Page!</h1>
-    <input
-      type="button"
-      class="Start"
-      id="start"
-      value="Start!"
-      onclick="SetQA()"
-    />
-    <h2 id="QuestionNumber">Question Number</h2>
-    <p class="Question" id="Question">Question</p>
-    <label><input type="text" class="Textbox" id="textbox" /></label>
-    <button
-      type="button"
-      class="Button"
-      id="submit"
-      value="確定"
-      onclick="Answer_Text()"
-    >
-      確定</button
-    ><br />
-    <button
-      type="button"
-      class="Button"
-      id="button1"
-      value="1"
-      onclick="Ans1_Checked()"
-    >
-      1
-    </button>
-    <button
-      type="button"
-      class="Button"
-      id="button2"
-      value="2"
-      onclick="Ans2_Checked()"
-    >
-      2
-    </button>
-    <button
-      type="button"
-      class="Button"
-      id="button3"
-      value="3"
-      onclick="Ans3_Checked()"
-    >
-      3
-    </button>
-    <br />
-    <br />
-    <h3 id="hantei_text">判定</h3>
-    <h4 id="hantei"></h4>
-    <button type="button" class="Button" id="next" onclick="Next()">
-      次へ
-    </button>
-    <button id="end" onclick="Re_Start()">終了</button>
+	<head>
+		<meta charset="utf-8" />
+		<title>Quiz Page</title>
+		<link rel="stylesheet" href="quiz.css" />
+	</head>
 
-    <script src="quiz.js"></script>
-  </body>
+	<body>
+		<h1>Quiz Page!</h1>
+		<input type="button" class="Start" id="start" value="Start!" onclick="SetQA()" />
+		<h2 id="QuestionNumber">Question Number</h2>
+		<p class="Question" id="Question">Question</p>
+
+		<label><input type="text" class="Textbox" id="textbox" /></label>
+		<button type="button" class="Button" id="submit" value="確定" onclick="Answer_Text()">確定</button><br />
+		<button type="button" class="Button" id="button1" value="1" onclick="Ans1_Checked()">1</button>
+		<button type="button" class="Button" id="button2" value="2" onclick="Ans2_Checked()">2</button>
+		<button type="button" class="Button" id="button3" value="3" onclick="Ans3_Checked()">3</button>
+		<br />
+		<br />
+		<h3 id="hantei_text">判定</h3>
+		<h4 id="hantei"></h4>
+		<button type="button" class="Button" id="next" onclick="Next()">次へ</button>
+		<button id="end" onclick="Re_Start()">終了</button>
+
+		<script src="quiz.js"></script>
+	</body>
 </html>

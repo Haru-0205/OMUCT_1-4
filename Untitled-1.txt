@@ -1,0 +1,4 @@
+2023-06-17 00:00:14.092 [info] ログ レベル: Info
+2023-06-17 00:00:14.092 [info] Git の検証が検出されました: "C:\Program Files\Git\cmd\git.exe"
+2023-06-17 00:00:14.092 [info] "C:\Program Files\Git\cmd\git.exe" から Git "2.41.0.windows.1" を使用しています
+2023-06-17 00:00:17.750 [info] > git rev-parse --show-toplevel [3677ms]
