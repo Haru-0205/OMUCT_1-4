@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Document</title>
+	</head>
+	<body>
+		名前
+		<input type="text" id="name1" />
+		<input type="text" id="name2" /><br />
+		<script>
+			let Name1;
+			let Name2;
+			let Text;
+			function submit() {
+				Name1 = document.getElementById("name1").value();
+				Name2 = document.getElementById("name2").value();
+				Text = "Hello," + Name1 + " " + Name2 + "!";
+				console.log(Text);
+			}
+		</script>
+		<button id="button">確定</button>
+		<h2 id="text1" onclick="submit()"></h2>
+
+	</body>
+</html>
