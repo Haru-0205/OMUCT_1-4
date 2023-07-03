@@ -1,3 +1,22 @@
-.Question{
-    background-color: beige;
+html {
+	background-color: azure;
+}
+.Question {
+	background-color: beige;
+}
+.title {
+	color: navy;
+	font-size: 35px;
+}
+button,
+input {
+	color: navy;
+	font-size: large;
+}
+.important {
+	font-size: xx-large;
+}
+.mini-text {
+	font-size: 18px;
+	color: gray;
 }
