@@ -12,7 +12,6 @@
 		"ms-vscode.live-server",
 		"ms-vsliveshare.vsliveshare",
 		"esbenp.prettier-vscode",
-		"pranaygp.vscode-css-peek",
 		"dbaeumer.vscode-eslint",
 		"ecmel.vscode-html-css"
 	],
