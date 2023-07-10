@@ -1,0 +1,12 @@
+h1 {
+	color: navy;
+	font-size: 40px;
+	border-bottom: 10px double;
+}
+table {
+	border-collapse: collapse;
+}
+h2 {
+	color: navy;
+	font-size: 25px;
+}

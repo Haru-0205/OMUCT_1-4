@@ -7,9 +7,11 @@
 	</head>
 
 	<body>
-		<h1>Quiz Page!</h1>
+		<h1 class="title">Quiz Page!</h1>
 		<input type="button" class="Start" id="start" value="Start!" onclick="SetQA()" />
-		<h2 id="QuestionNumber">Question Number</h2>
+		<h2 id="QuestionNumber">
+			第<span id="no"> </span>問<span class="mini-text">/全<span id="questions"> </span>問</span>
+		</h2>
 		<p class="Question" id="Question">Question</p>
 
 		<label><input type="text" class="Textbox" id="textbox" /></label>
@@ -20,10 +22,11 @@
 		<br />
 		<br />
 		<h3 id="hantei_text">判定</h3>
-		<h4 id="hantei"></h4>
+		<h4 id="hantei" class="important"></h4>
 		<button type="button" class="Button" id="next" onclick="Next()">次へ</button>
 		<button id="end" onclick="Re_Start()">終了</button>
 
+		<p>正答数： <span id="collect"></span>問/ <span id="questions_2"> </span>問</p>
 		<script src="quiz.js"></script>
 	</body>
 </html>
