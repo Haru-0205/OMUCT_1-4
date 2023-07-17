@@ -2,5 +2,9 @@
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"files.autoSave": "onFocusChange",
-	"cSpell.words": ["hantei", "midashi", "OMUCT", "textbox"]
+	"cSpell.words": ["hantei", "midashi", "OMUCT", "textbox"],
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.autopep8"
+	},
+	"python.formatting.provider": "none"
 }
