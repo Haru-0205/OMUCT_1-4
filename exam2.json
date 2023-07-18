@@ -7,7 +7,7 @@
 			"work1": ["課題の範囲"]
 		},
 		"homework": {
-			"work": [
+			"work1": [
 				"Q4.7",
 				"Q4.9-Q4.10",
 				"Q4.16",
@@ -26,7 +26,35 @@
 		"work1": "高専テキストシリーズ 基礎数学 問題集"
 	},
 	{
+	  "subject": "basic-math-c",
+	  "subject_jp": "基礎数学C"
+	},
+	{
+	  "subject": "physics1",
+	  "subject_jp": "基礎物理1"
+	},
+	{
+	  "subject": "chemistry1",
+	  "subject_jp": "化学1"
+	},
+	{
 		"subject": "english1",
 		"subject_jp": "英語1"
+	},
+	{
+	  "subject": "english_expression1",
+	  "subject_jp": "英語表現1"
+	},
+	{
+	  "subject": "japanese1",
+	  "subject_jp": "国語1"
+	},
+	{
+	  "subject": "social1",
+	  "subject_jp": "社会1"
+	},
+	{
+	  "subject": "diversity",
+	  "subject_jp": "ダイバーシティと人権"
 	}
 ]
