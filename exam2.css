@@ -14,9 +14,8 @@ h2 {
 	font-family: Zen Maru Gothic;
 	font-weight: 400;
 	color: lavenderblush;
-	width: 7em;
+	width: fit-content;
 }
-
 table {
 	background-color: #4b6d61;
 	font-family: Zen Maru Gothic;
@@ -37,9 +36,24 @@ button {
 	font-size: medium;
 	margin: 4px;
 }
-.contents {
+#contents {
 	background-color: #4b6d61;
-	font-family: "Klee One", cursive;
+	font-family: "Klee One";
 	font-weight: 400;
 	color: aliceblue;
+	width: 80%;
+}
+#subject {
+	border-bottom: 2px solid;
+	color: aliceblue;
+	font-family: "Klee One";
+	width: 100%;
+}
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+}
+#light,
+#reft {
+	width: 50%;
 }
