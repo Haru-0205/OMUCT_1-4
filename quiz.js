@@ -1,10 +1,4 @@
-let Quiz;
-let Answer;
-let Type;
-let Ans1;
-let Ans2;
-let Ans3;
-let Ans;
+let Quiz,Answer,Type,Ans1,Ans2,Ans3,Ans;
 let No = 1;
 let HMQuestions = 5;
 let Collect = 0;
