@@ -38,7 +38,16 @@
 	},
 	{
 		"subject": "english1",
-		"subject_jp": "英語1"
+		"subject_jp": "英語1",
+		"range": {
+			"text": ["Unit2 Passage2 (pp.33-40)", "Unit3 (pp.44-56)"],
+			"work1": ["Unit2 Passage2 (pp.20-25)", "Unit3 (pp.28-37)"]
+		},
+		"homework": {
+			"work1": ["Unit2 Passage2 (pp.20-25)", "Unit3 (pp.28-37)"]
+		},
+		"text": "Crossroads English Communication 1",
+		"work1": "Crossroads English Communication 1 予習ノート"
 	},
 	{
 		"subject": "english_expression1",

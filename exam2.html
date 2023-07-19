@@ -26,15 +26,15 @@
 		</table>
 		<!---->
 		<h2>各教科の範囲等</h2>
-		<button id="basic-math-a" onclick="subject_array_no = 0;data(0)">基礎数学A</button>
-		<button id="basic-math-c">基礎数学C</button>
-		<button id="physics1">基礎物理1</button>
-		<button id="chemistry1">化学1</button>
-		<button id="english1">英語1</button>
-		<button id="english-expression1">英語表現1</button>
-		<button id="japanese1">国語1</button>
-		<button id="social1">社会1</button>
-		<button id="diversity">ダイバーシティと人権</button>
+		<button id="basic-math-a" onclick="data(0)">基礎数学A</button>
+		<button id="basic-math-c" onclick="data(1)">基礎数学C</button>
+		<button id="physics1" onclick="data(2)">基礎物理1</button>
+		<button id="chemistry1" onclick="data(3)">化学1</button>
+		<button id="english1" onclick="data(4)">英語1</button>
+		<button id="english-expression1" onclick="data(5)">英語表現1</button>
+		<button id="japanese1" onclick="data(6)">国語1</button>
+		<button id="social1" onclick="data(7)">社会1</button>
+		<button id="diversity" onclick="data(8)">ダイバーシティと人権</button>
 		<div id="contents">
 			<h2 id="subject">subject</h2>
 			<div class="flexbox">
@@ -52,12 +52,27 @@
 						</ul>
 					</ul>
 					<h3 id="bring-midashi">持込</h3>
-					<ul id="bring"></ul>
+					<ul>
+						<ul id="bring">
+							Bring
+						</ul>
+					</ul>
 				</div>
 				<div id="reft">
 					<h3>課題</h3>
-					<ul id="hw1">
-						HomeWork1
+					<ul>
+						<ul id="hw1">
+							HomeWork1
+						</ul>
+						<ul id="hw2">
+							HomeWork2
+						</ul>
+						<ul id="hw3">
+							HomeWork3
+						</ul>
+						<ul id="hw4">
+							HomeWork4
+						</ul>
 					</ul>
 				</div>
 			</div>
