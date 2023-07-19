@@ -63,3 +63,18 @@ ul {
 li {
 	margin-left: 1em;
 }
+@media screen and (min-width: 840px) {
+	#contents {
+		width: 840px;
+	}
+}
+@media screen and (max-width: 450px) {
+	#contents {
+		flex-direction: column;
+		width: 100%;
+	}
+	#light,
+	#reft {
+		width: 100%;
+	}
+}
