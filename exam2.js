@@ -46,5 +46,6 @@ function data(subject_no) {
 		document.getElementById("bring").style.display = "block";
 		document.getElementById("bring").innerText = json_data[no][bring];
 	}
+	get_array2("work1", "homework", "work1", "hw1");
 	return subject_no;
 }
