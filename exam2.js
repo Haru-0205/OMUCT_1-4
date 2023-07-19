@@ -31,6 +31,8 @@ function data(subject_no) {
 
 	if (typeof json_data[subject_no]["text"] === "undefined") {
 		disappear("range");
+	} else if (typeof json_data[subject_no]["range"] === "undefined") {
+		disappear("range");
 	} else if (typeof json_data[subject_no]["range"]["text"] === "undefined") {
 		disappear("range");
 	} else {
