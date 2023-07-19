@@ -1,0 +1,60 @@
+[
+	{
+		"subject": "basic-math-A",
+		"subject_jp": "基礎数学A",
+		"range": {
+			"text": ["p.36", "pp.38-39", "p.69", "pp.71-100"],
+			"work1": ["課題の範囲"]
+		},
+		"homework": {
+			"work1": [
+				"Q4.7",
+				"Q4.9-Q4.10",
+				"Q4.16",
+				"Q7.9",
+				"Q7.14",
+				"Q8.1-8.5",
+				"Q8.6-Q8.10",
+				"Q9.1-Q9.15",
+				"Q9.16-Q9.25",
+				"Q10.1-Q10.12",
+				"Q10.15-Q10.22"
+			]
+		},
+		"date": "X日目Y限",
+		"text": "高専テキストシリーズ 基礎数学",
+		"work1": "高専テキストシリーズ 基礎数学 問題集"
+	},
+	{
+	  "subject": "basic-math-c",
+	  "subject_jp": "基礎数学C"
+	},
+	{
+	  "subject": "physics1",
+	  "subject_jp": "基礎物理1"
+	},
+	{
+	  "subject": "chemistry1",
+	  "subject_jp": "化学1"
+	},
+	{
+		"subject": "english1",
+		"subject_jp": "英語1"
+	},
+	{
+	  "subject": "english_expression1",
+	  "subject_jp": "英語表現1"
+	},
+	{
+	  "subject": "japanese1",
+	  "subject_jp": "国語1"
+	},
+	{
+	  "subject": "social1",
+	  "subject_jp": "社会1"
+	},
+	{
+	  "subject": "diversity",
+	  "subject_jp": "ダイバーシティと人権"
+	}
+]
