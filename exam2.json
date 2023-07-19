@@ -21,40 +21,39 @@
 				"Q10.15-Q10.22"
 			]
 		},
-		"date": "X日目Y限",
 		"text": "高専テキストシリーズ 基礎数学",
 		"work1": "高専テキストシリーズ 基礎数学 問題集"
 	},
 	{
-	  "subject": "basic-math-c",
-	  "subject_jp": "基礎数学C"
+		"subject": "basic-math-c",
+		"subject_jp": "基礎数学C"
 	},
 	{
-	  "subject": "physics1",
-	  "subject_jp": "基礎物理1"
+		"subject": "physics1",
+		"subject_jp": "基礎物理1"
 	},
 	{
-	  "subject": "chemistry1",
-	  "subject_jp": "化学1"
+		"subject": "chemistry1",
+		"subject_jp": "化学1"
 	},
 	{
 		"subject": "english1",
 		"subject_jp": "英語1"
 	},
 	{
-	  "subject": "english_expression1",
-	  "subject_jp": "英語表現1"
+		"subject": "english_expression1",
+		"subject_jp": "英語表現1"
 	},
 	{
-	  "subject": "japanese1",
-	  "subject_jp": "国語1"
+		"subject": "japanese1",
+		"subject_jp": "国語1"
 	},
 	{
-	  "subject": "social1",
-	  "subject_jp": "社会1"
+		"subject": "social1",
+		"subject_jp": "社会1"
 	},
 	{
-	  "subject": "diversity",
-	  "subject_jp": "ダイバーシティと人権"
+		"subject": "diversity",
+		"subject_jp": "ダイバーシティと人権"
 	}
 ]

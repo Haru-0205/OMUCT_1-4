@@ -57,3 +57,9 @@ button {
 #reft {
 	width: 50%;
 }
+ul {
+	padding-left: 0.5em;
+}
+li {
+	margin-left: 1em;
+}
