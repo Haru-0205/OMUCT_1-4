@@ -28,17 +28,14 @@ function data(subject_no) {
 	if (json_data[subject_no]["work1"] != null) {
 		document.getElementById("work1").style.display = "block";
 		get_array2("work1", "range", "work1", "work1");
-		console.log(completed);
 	} else {
 		document.getElementById("work1").style.display = "none";
 	}
 	if (json_data[subject_no]["work2"] != null) {
-		document.getElementById("work2-name").style.display = "block";
-		document.getElementById("work2-range").style.display = "block";
-		document.getElementById("work2-name").innerText = json_data[subject_no].work2;
-		document.getElementById("work2-range").style.display = "none";
+		document.getElementById("work2").style.display = "block";
+		get_array2("work2", "range", "work2", "range2");
 	} else {
-		document.getElementById("work2-range").style.display = "none";
+		document.getElementById("work2").style.display = "none";
 	}
 
 	if (json_data[subject_no].bring == null) {
