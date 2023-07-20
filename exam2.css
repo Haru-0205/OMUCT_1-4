@@ -42,30 +42,44 @@ button {
 	font-weight: 400;
 	color: aliceblue;
 	width: 80%;
+	border: 3px solid;
 }
 #subject {
 	border-bottom: 2px solid;
 	color: aliceblue;
 	font-family: "Klee One";
 	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 .flexbox {
 	display: flex;
 	flex-wrap: wrap;
 }
-#light,
-#reft {
-	width: 50%;
+#right,
+#left {
+	padding: 2px;
+	width: 48%;
 }
+#left {
+	border-right: 3px solid;
+}
+
 ul {
 	padding-left: 0.5em;
 }
 li {
 	margin-left: 1em;
 }
-@media screen and (min-width: 840px) {
-	#contents {
-		width: 840px;
+@media screen and (min-width: 850px) {
+	#contents6 {
+		width: 850px;
+	}
+	#right,
+	#left {
+		width: 420px;
 	}
 }
 @media screen and (max-width: 450px) {
@@ -77,4 +91,16 @@ li {
 	#reft {
 		width: 100%;
 	}
+}
+.flexbox h3,
+p {
+	margin-top: 0px;
+	padding-top: 1px;
+}
+#date {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-top: 3px solid;
 }
