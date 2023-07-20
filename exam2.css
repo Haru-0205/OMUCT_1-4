@@ -54,17 +54,8 @@ button {
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
-.flexbox {
-	display: flex;
-	flex-wrap: wrap;
-}
-#right,
-#left {
-	padding: 2px;
-	width: 48%;
-}
-#left {
-	border-right: 3px solid;
+.grid {
+	display: grid;
 }
 
 ul {
@@ -73,23 +64,35 @@ ul {
 li {
 	margin-left: 1em;
 }
-@media screen and (min-width: 850px) {
-	#contents6 {
-		width: 850px;
+@media screen and (min-width: 840px) {
+	#contents {
+		width: 840px;
 	}
-	#right,
+	.grid {
+		grid-template-columns: 1fr 1fr;
+	}
 	#left {
-		width: 420px;
+		border-right: 3px solid;
 	}
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 839px) and (min-width: 640px) {
 	#contents {
-		flex-direction: column;
+		width: 640px;
+	}
+	.grid {
+		grid-template-columns: 1fr 1fr;
+	}
+	#left {
+		border-right: 3px solid;
+	}
+}
+@media screen and (max-width: 639px) {
+	#contents {
 		width: 100%;
 	}
 	#light,
 	#reft {
-		width: 100%;
+		width: 96%;
 	}
 }
 .flexbox h3,
@@ -103,4 +106,8 @@ p {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	border-top: 3px solid;
+}
+.grid h3 {
+	margin-top: 0px;
+	margin-left: 2px;
 }
