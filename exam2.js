@@ -57,9 +57,9 @@ function data(subject_no) {
 		disappear("bring-midashi");
 		disappear("bring");
 	} else {
-		document.getElementById("bring-midashi").style.display = "block";
-		document.getElementById("bring").style.display = "block";
-		document.getElementById("bring").innerText = json_data[no][bring];
+		appear("bring-midashi");
+		appear("bring");
+		document.getElementById("bring").innerText = json_data[subject_no].bring;
 	}
 
 	if (typeof json_data[subject_no].homework === "undefined") {
